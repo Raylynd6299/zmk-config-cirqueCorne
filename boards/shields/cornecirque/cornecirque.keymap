@@ -24,16 +24,16 @@
         // | LCTRL |  '  |  Q  |  J  |  K  |  X  |   |  B  |  M   |  W  |  V  |  Z  | RSHITF |
         //                    | GUI | ESC(LOWER) | SPC(RAISE) |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB           &kp SEMICOLON    &kp COMMA &kp PERIOD &kp P &kp Y       &kp F &kp G  &kp C  &kp R  &kp L   &kp BACKSPACE
-   &kp LCLEFT_ALTTRL &kp A            &kp O     &kp E      &kp U &kp I       &kp D &kp H  &kp T  &kp N  &kp S   &kp SLASH
-   &kp LEFT_CONTROL  &kp SINGLE_QUOTE &kp Q     &kp J      &kp K &kp X       &kp B &kp M  &kp W  &kp V  &kp Z   &kp RIGHT_SHIFT
+   &kp TAB          &kp SEMICOLON    &kp COMMA &kp PERIOD &kp P &kp Y       &kp F &kp G  &kp C  &kp R  &kp L   &kp BACKSPACE
+   &kp LEFT_ALT     &kp A            &kp O     &kp E      &kp U &kp I       &kp D &kp H  &kp T  &kp N  &kp S   &kp SLASH
+   &kp LEFT_CONTROL &kp SINGLE_QUOTE &kp Q     &kp J      &kp K &kp X       &kp B &kp M  &kp W  &kp V  &kp Z   &kp RIGHT_SHIFT
                      &kp LGUI         &mo LOWER &lt RAISE SPACE              &kp ENTER    &kp RIGHT_ALT &kp DELETE                      >;
                 };
                 lower_layer {
                         display-name = "Lower Layer";
         // -----------------------------------------------------------------------------------------
         // |  TAB  |  1  |  2  |  3  |  4  |  5  |   |  6   |  7   |   8   |   9    |     0     |  BSPC  |
-        // | BTCLR |  F1 |  F2 |  F3 |  F4 |  F5 |   | ESC  |  UP  | MINUS | EQUAL  |   GRAVE   |        |
+        // | LALT  |  F1 |  F2 |  F3 |  F4 |  F5 |   | ESC  |  UP  | MINUS | EQUAL  |   GRAVE   |        |
         // | SHFT  |  F6 |  F7 |  F8 |  F9 | F10 |   | LEFT | DOWN | RIGHT | DELETE | BACKSLASH | RSHIFT |
         //                     | GUI |     | SPC |   | ENT  |      | ALT |
                         bindings = <
