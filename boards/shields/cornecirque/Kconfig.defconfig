@@ -2,7 +2,7 @@ if SHIELD_CORNECIRQUE_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "CorneCirque"
+    default "CorneCirqueL"
 
 endif
 
@@ -10,7 +10,7 @@ if SHIELD_CORNECIRQUE_RIGHT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "CorneCirque"
+    default "CorneCirqueR"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -18,7 +18,6 @@ config ZMK_SPLIT_ROLE_CENTRAL
 endif
 
 if SHIELD_CORNECIRQUE_RIGHT || SHIELD_CORNECIRQUE_LEFT
-
 
 config ZMK_SPLIT
     default y
